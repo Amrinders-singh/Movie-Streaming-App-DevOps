@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'dev', url: 'https://github.com/sudhanshuvlog/Movie-Streaming-App-DevOps.git'
+        git branch: 'dev', url: 'https://github.com/Amrinders-singh/Movie-Streaming-App-DevOps.git'
       }
     }
     stage('Unit Tests') {
